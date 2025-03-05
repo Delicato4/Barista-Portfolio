@@ -1,17 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fa">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
-    <link href="./dist/output.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="/dist/output.css" rel="stylesheet" />
   </head>
-  <body class="bg-gray-100">
-    <div class="container mx-auto px-4 py-8">
-      <h1 class="text-4xl font-bold text-gray-800 mb-4">
-        Welcome to My Portfolio
-      </h1>
-      <p class="text-gray-600">This is a sample page using Tailwind CSS.</p>
-    </div>
+  <body class="bg-black min-h-screen font-amiri ">
+    <h1 class="text-white py-5 text-center text-4xl mn font-bold">عرشیا<span class="text-f5eab6"> فراهانی</span></h1>
+    <header class="flex flex-col justify-center items-center gap-4 p-5 lg:flex-row xl:flex-row 2xl:flex-row">
+      <img
+        src="./images/arshia.jpg"
+        alt="Arshia"
+        class="rounded-full w-72 h-72 object-cover  shadow-ax hover:shadow-ax-hover shadow-f5eab6 "
+      />
+      <div class="flex flex-col p-5 max-w-md">
+        <h1 class="text-right p-1 text-white text-5xl font-bold">
+          <span class="text-white">سلام, من</span>
+            <span class="text-f5eab6">عرشیا<span> 
+              <span class="text-white"> هستم </span>
+             
+        </h1>
+       
+        <h3 class=" text-3xl py-3 text-white text-right "> باریستا و بارتندر  </h3>
+       
+        <p class="text-white text-right py-2">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum ducimus delectus maxime amet, esse deserunt harum ratione sequi voluptate itaque, expedita dignissimos iste eius voluptatem quod sed exercitationem repellat voluptates.
+        </p>
+      </div>
+    </header>
+
+    
+    <main class="container mx-auto px-4">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4"></div>
+    </main>
   </body>
 </html>
